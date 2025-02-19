@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo/botao.css">
+    <link rel="stylesheet" href="./estilo/media.css">
+    <link rel="shortcut icon" href="./icons/icon.png" type="image/x-icon">
+    <title>Vivante Clinica de Saúde</title>
+</head>
+<body>
+    <header><!--cabeça do site-->
+        <div class="center"><!--center-->
+            <div class="logo">
+                <a href="http://127.0.0.1:5500/index.html"><img src="./icons/icon.png" alt="" width="75" height="75"></a>
+            </div><!--logo do site-->
+            <div class="nome">
+                <a href="http://127.0.0.1:5500/index.html"><h1>Clinica</h1><h2>Vivante</h2></a>
+            </div>
+            <div class="menu"><!--Menu--> 
+                <a href="http://127.0.0.1:5500/index.html">Home</a>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="servico.html">Serviços</a>
+                <a href="https://api.whatsapp.com/message/U6RWA7KLO3EWN1?autoload=1&app_absent=0" target="_blank">Contatos</a>
+            </div>   
+        </div>
+    </header> 
+    <main>
+        <aside>
+            <form action="">
+                <select name="Clinica" id="">
+                    <option value="Médico">Médico</option>
+                    <option value="Fisioterapia">Fisioterapia</option>
+                    <option value="Psicologia">Psicologia</option>
+                    <option value="Nutrição">Nutrição</option>
+                    <option value="Hidroginástica">Hidroginástica</option>
+                </select>
+                <input type="text" placeholder="Nome:">
+                <input type="text" placeholder="Sobrenome:">
+                <input type="email" placeholder="Email:">
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Telefone"/>
+                <input type="datetime-local" placeholder="Horário da Consulta:">
+                <input type="submit" value="Enviar >">
+                
+            </form>
+        </aside>
+    </main> 
+      
+    </body>
+    </html>
